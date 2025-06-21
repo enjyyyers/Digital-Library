@@ -1,0 +1,495 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+	<!--========== BOX ICONS ==========-->
+	<link href="https://cdn.jsdelivr.net/npm/boxicons@2.0.5/css/boxicons.min.css" rel="stylesheet" />
+
+	<!--========== FONT AWESOME ==========-->
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" />
+
+	<!--========== CSS ==========-->
+	<link rel="stylesheet" href="assets/css/styles.css" />
+
+	<title>ReadSee Responsive Web</title>
+</head>
+
+<body>
+	<!--========== SCROLL TOP ==========-->
+	<a href="#" class="scrolltop" id="scroll-top">
+		<i class="bx bx-chevron-up scrolltop__icon"></i>
+	</a>
+	<!--========== HEADER ==========-->
+	<header class="l-header" id="header">
+		<nav class="nav bd-container">
+			<a href="#" class="nav__logo">
+				<img src="assets/img/logo.png" alt="ReadSee Logo" class="nav__logo-img">
+				<span class="nav__logo-text">ReadSee</span>
+			</a>			<div class="nav__menu" id="nav-menu">
+				<ul class="nav__list">
+					<li class="nav__item">
+						<a href="#home" class="nav__link active-link">Home</a>
+					</li>
+					<li class="nav__item">
+						<a href="#about" class="nav__link">About</a>
+					</li>
+					<li class="nav__item">
+						<a href="#services" class="nav__link">Services</a>
+					</li>
+					<li class="nav__item">
+						<a href="#book" class="nav__link">Book</a>
+					</li>
+					<li class="nav__item">
+						<a href="#contact" class="nav__link">Contact us</a>
+					</li>
+
+					<li><i class="bx bx-moon change-theme" id="theme-button"></i></li>
+				</ul>
+			</div>
+
+			<div class="nav__toggle" id="nav-toggle">
+				<i class="bx bx-menu"></i>
+			</div>
+		</nav>
+	</header>
+
+	<main class="l-main"> <!--========== HOME ==========-->
+		<section class="home" id="home">
+			<div class="home__container bd-container bd-grid">
+				<div class="home__data">
+					<h1 class="home__title">
+						Welcome to <span class="home__title-accent">ReadSee</span>
+					</h1>
+					<h2 class="home__subtitle">Read. Reflect. Relax</h2>
+					<p class="home__description">
+						Discover thousands of books at your fingertips. Create your
+						personal digital library and enjoy reading anytime, anywhere.
+						Join millions of readers worldwide.
+					</p>
+					<div class="home__buttons">
+						<a href="#book" class="button button-primary">
+							<i class="bx bx-book-open"></i>
+							Explore Books
+						</a>
+					</div>
+					<div class="home__stats">
+						<div class="home__stat">
+							<h3>10K+</h3>
+							<span>Books Available</span>
+						</div>
+						<div class="home__stat">
+							<h3>50K+</h3>
+							<span>Happy Readers</span>
+						</div>
+						<div class="home__stat">
+							<h3>24/7</h3>
+							<span>Support</span>
+						</div>
+					</div>
+				</div>
+
+				<div class="home__img">
+					<div class="home__img-bg"></div>
+					<img src="assets/img/home.jpg" alt="ReadSee Library" />
+					<div class="home__floating-card home__floating-card-1">
+						<i class="bx bx-book"></i>
+						<span>Fiction</span>
+					</div>
+					<div class="home__floating-card home__floating-card-2">
+						<i class="bx bx-brain"></i>
+						<span>Education</span>
+					</div>
+					<div class="home__floating-card home__floating-card-3">
+						<i class="bx bx-heart"></i>
+						<span>Romance</span>
+					</div>
+				</div>
+			</div>
+		</section> <!--========== ABOUT ==========-->
+		<section class="about section bd-container" id="about">
+			<div class="about__container bd-grid">
+				<div class="about__data">
+					<span class="section-subtitle about__initial">About us</span>
+					<h2 class="section-title about__initial">
+						We provide a variety <br />
+						of interesting Knowledge
+					</h2>
+					<p class="about__description">
+						Settle in, read at your own pace, and let every session bring you
+						calm and clarity. Our curated collection spans across genres to
+						feed your curiosity.
+					</p>
+
+					<div class="about__features">
+						<div class="about__feature">
+							<div class="about__feature-icon">
+								<i class="bx bx-check-circle"></i>
+							</div>
+							<div class="about__feature-info">
+								<h4>Quality Content</h4>
+								<span>Carefully curated books</span>
+							</div>
+						</div>
+						<div class="about__feature">
+							<div class="about__feature-icon">
+								<i class="bx bx-time"></i>
+							</div>
+							<div class="about__feature-info">
+								<h4>24/7 Access</h4>
+								<span>Read anytime, anywhere</span>
+							</div>
+						</div>
+						<div class="about__feature">
+							<div class="about__feature-icon">
+								<i class="bx bx-shield-check"></i>
+							</div>
+							<div class="about__feature-info">
+								<h4>Secure Platform</h4>
+								<span>Your data is protected</span>
+							</div>
+						</div>
+					</div>
+
+					<a href="#book" class="button">Explore Books</a>
+				</div>
+
+				<div class="about__img">
+					<div class="about__img-decoration"></div>
+					<img src="assets/img/about.jpg" alt="About ReadSee" />
+					<div class="about__experience">
+						<div class="about__experience-number">5+</div>
+						<div class="about__experience-text">
+							<span>Years of</span>
+							<span>Experience</span>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section> <!--========== SERVICES ==========-->
+		<section class="services section bd-container" id="services">
+			<div class="services__header">
+				<span class="section-subtitle">Offering</span>
+				<h2 class="section-title">Discover Our Library Services</h2>
+				<p class="services__description">
+					Enjoy seamless reading experience with our comprehensive digital library features
+				</p>
+			</div>
+
+			<div class="services__container bd-grid">
+				<div class="services__content">
+					<div class="services__icon-wrapper">
+						<div class="services__icon">
+							<i class="fas fa-book-open"></i>
+						</div>
+					</div>
+					<div class="services__info">
+						<h3 class="services__title">
+							Instant Access to Thousands of Books
+						</h3>
+						<p class="services__description">
+							Read from anywhere, anytime – fiction, non-fiction, academic, and
+							more at your fingertips.
+						</p>
+						<a href="#book" class="services__link">
+							Learn More <i class="bx bx-right-arrow-alt"></i>
+						</a>
+					</div>
+				</div>
+
+				<div class="services__content">
+					<div class="services__icon-wrapper">
+						<div class="services__icon">
+							<i class="fas fa-sync-alt"></i>
+						</div>
+					</div>
+					<div class="services__info">
+						<h3 class="services__title">Seamless Multi-Device Sync</h3>
+						<p class="services__description">
+							Start reading on one device and continue where you left off on
+							another with automatic synchronization.
+						</p>
+						<a href="#" class="services__link">
+							Learn More <i class="bx bx-right-arrow-alt"></i>
+						</a>
+					</div>
+				</div>
+
+				<div class="services__content">
+					<div class="services__icon-wrapper">
+						<div class="services__icon">
+							<i class="fas fa-download"></i>
+						</div>
+					</div>
+					<div class="services__info">
+						<h3 class="services__title">Offline Reading Mode</h3>
+						<p class="services__description">
+							Download books and enjoy reading without internet in your comfort
+							zone anywhere you go.
+						</p>
+						<a href="#" class="services__link">
+							Learn More <i class="bx bx-right-arrow-alt"></i>
+						</a>
+					</div>
+				</div>
+			</div>
+		</section> <!--========== BOOK ==========-->
+		<section class="book section bd-container" id="book">
+			<div class="book__header">
+				<span class="section-subtitle">Special</span>
+				<h2 class="section-title">Book of the week</h2>
+				<p class="book__header-description">
+					Handpicked selections from our curators - discover your next favorite read
+				</p>
+			</div>
+
+			<div class="book__container bd-grid">
+				<div class="book__content">
+					<div class="book__img">
+						<img src="assets/img/book-1.jpg" alt="Rumah Untuk Alie" />
+						<div class="book__badge">Featured</div>
+						<div class="book__overlay">
+							<button class="book__quick-view">
+								<i class="bx bx-show"></i>
+								Quick View
+							</button>
+						</div>
+					</div>
+					<div class="book__info">
+						<div class="book__category">Indonesian Literature</div>
+						<h3 class="book__name">The Secret Garden</h3>
+						<div class="book__rating">
+							<i class="bx bxs-star"></i>
+							<i class="bx bxs-star"></i>
+							<i class="bx bxs-star"></i>
+							<i class="bx bxs-star"></i>
+							<i class="bx bxs-star"></i>
+							<span>(4.8)</span>
+						</div>
+						<span class="book__detail">Click for more details</span>
+						<div class="book__footer">
+							<span class="book__price">Free</span>
+							<a href="#" class="button book__button">
+								<i class="bx bx-cart-alt"></i>
+								Add to Library
+							</a>
+						</div>
+					</div>
+				</div>
+
+				<div class="book__content">
+					<div class="book__img">
+						<img src="assets/img/book-2.jpg" alt="Pulang-Pergi" />
+						<div class="book__badge">Popular</div>
+						<div class="book__overlay">
+							<button class="book__quick-view">
+								<i class="bx bx-show"></i>
+								Quick View
+							</button>
+						</div>
+					</div>
+					<div class="book__info">
+						<div class="book__category">Travel & Memoir</div>
+						<h3 class="book__name">The Secret Garden</h3>
+						<div class="book__rating">
+							<i class="bx bxs-star"></i>
+							<i class="bx bxs-star"></i>
+							<i class="bx bxs-star"></i>
+							<i class="bx bxs-star"></i>
+							<i class="bx bx-star"></i>
+							<span>(4.5)</span>
+						</div>
+						<span class="book__detail">Click for more details</span>
+						<div class="book__footer">
+							<span class="book__price">Free</span>
+							<a href="#" class="button book__button">
+								<i class="bx bx-cart-alt"></i>
+								Add to Library
+							</a>
+						</div>
+					</div>
+				</div>
+
+				<div class="book__content">
+					<div class="book__img">
+						<img src="assets/img/book-3.jpg" alt="Laut Bercerita" />
+						<div class="book__badge">Award Winner</div>
+						<div class="book__overlay">
+							<button class="book__quick-view">
+								<i class="bx bx-show"></i>
+								Quick View
+							</button>
+						</div>
+					</div>
+					<div class="book__info">
+						<div class="book__category">Historical Fiction</div>
+						<h3 class="book__name">Before Its To Late</h3>
+						<div class="book__rating">
+							<i class="bx bxs-star"></i>
+							<i class="bx bxs-star"></i>
+							<i class="bx bxs-star"></i>
+							<i class="bx bxs-star"></i>
+							<i class="bx bxs-star"></i>
+							<span>(5.0)</span>
+						</div>
+						<span class="book__detail">Click for more details</span>
+						<div class="book__footer">
+							<span class="book__price">Free</span>
+							<a href="#" class="button book__button">
+								<i class="bx bx-cart-alt"></i>
+								Add to Library
+							</a>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section> <!--===== APP =======-->
+		<section class="app section bd-container">
+			<div class="app__container bd-grid">
+				<!-- Kolom kiri: Teks -->
+				<div class="app__data">
+					<span class="section-subtitle app__initial">App</span>
+					<h2 class="section-title app__initial">App is available</h2>
+					<p class="app__description">
+						Download our app and access thousands of books, build your
+						personal library, read offline, and discover new titles anytime,
+						anywhere.
+					</p>
+
+					<div class="app__features">
+						<div class="app__feature">
+							<i class="bx bx-mobile-alt"></i>
+							<span>Mobile Optimized</span>
+						</div>
+						<div class="app__feature">
+							<i class="bx bx-wifi-off"></i>
+							<span>Offline Reading</span>
+						</div>
+						<div class="app__feature">
+							<i class="bx bx-sync"></i>
+							<span>Cloud Sync</span>
+						</div>
+					</div>
+
+					<div class="app__stores">
+						<a href="#" class="app__store-link">
+							<i class="fab fa-google-play"></i>
+							<div class="app__store-info">
+								<span class="app__store-text">Get it on</span>
+								<span class="app__store-name">Google Play</span>
+							</div>
+						</a>
+						<a href="#" class="app__store-link">
+							<i class="fab fa-app-store-ios"></i>
+							<div class="app__store-info">
+								<span class="app__store-text">Download on</span>
+								<span class="app__store-name">App Store</span>
+							</div>
+						</a>
+					</div>
+				</div>
+
+				<!-- Kolom kanan: Gambar -->
+				<div class="app__img">
+					<div class="app__img-bg"></div>
+					<img src="assets/img/app1 (2).png" alt="ReadSee Mobile App" class="app__image" />
+					<div class="app__download-badge">
+						<i class="bx bx-download"></i>
+						<div>
+							<span>100K+</span>
+							<small>Downloads</small>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+		<!--========== CONTACT US ==========-->
+		<section class="contact section bd-container" id="contact">
+			<div class="contact__container bd-grid">
+				<div class="contact__data">
+					<span class="section-subtitle contact__initial">Let's talk</span>
+					<h2 class="section-title contact__initial">Contact us</h2>
+					<p class="contact__description">
+						Looking for a specific title or having trouble with your reading
+						experience? Reach out through our 24/7 chat — we're here to help
+						anytime you need.
+					</p>
+
+					<div class="contact__info">
+						<div class="contact__info-item">
+							<div class="contact__info-icon">
+								<i class="bx bx-phone"></i>
+							</div>
+							<div class="contact__info-content">
+								<h4>Call Us</h4>
+								<span>+1 (555) 123-4567</span>
+							</div>
+						</div>
+						<div class="contact__info-item">
+							<div class="contact__info-icon">
+								<i class="bx bx-envelope"></i>
+							</div>
+							<div class="contact__info-content">
+								<h4>Email Us</h4>
+								<span>support@readsee.com</span>
+							</div>
+						</div>
+						<div class="contact__info-item">
+							<div class="contact__info-icon">
+								<i class="bx bx-time"></i>
+							</div>
+							<div class="contact__info-content">
+								<h4>Support Hours</h4>
+								<span>24/7 Available</span>
+							</div>
+						</div>
+					</div>
+				</div>
+
+				<div class="contact__form">
+					<form class="contact__form-container">
+						<div class="contact__form-group">
+							<input type="text" placeholder="Your Name" class="contact__input">
+							<input type="email" placeholder="Your Email" class="contact__input">
+						</div>
+						<div class="contact__form-group">
+							<input type="text" placeholder="Subject" class="contact__input contact__input-full">
+						</div>
+						<div class="contact__form-group">
+							<textarea placeholder="Your Message" class="contact__textarea"></textarea>
+						</div>
+						<button type="submit" class="button contact__button">
+							<i class="bx bx-send"></i>
+							Send Message
+						</button>
+					</form>
+				</div>
+			</div>
+		</section>
+	</main>
+	<!--========== FOOTER ==========-->
+	<footer class="footer section bd-container">
+		<div class="footer__container bd-grid">
+			<div class="center__content">
+				<a href="#" class="footer__logo">ReadSee</a>
+				<span class="footer__description">Digital Library</span>
+				<div>
+					<a href="#" class="footer__social"><i class='bx bxl-facebook'></i></a>
+					<a href="#" class="footer__social"><i class='bx bxl-instagram'></i></a>
+					<a href="#" class="footer__social"><i class='bx bxl-twitter'></i></a>
+				</div>
+			</div>
+
+			<p class="footer__copy">&#169; 2025 Reitha Alvida. All right reserved</p>
+	</footer>
+
+	<!--========== SCROLL REVEAL ==========-->
+	<script src="https://unpkg.com/scrollreveal"></script>
+
+	<!--========== MAIN JS ==========-->
+	<script src="assets/js/main.js"></script>
+</body>
+
+</html>
